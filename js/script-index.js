@@ -18,6 +18,9 @@ $(document).ready( function(){
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
 
+	//ETAPA 5
+	renderActivities(activitiesArray)
+
 });
 
 
@@ -68,11 +71,20 @@ function renderRecipe(recipe) {
 
 
 /*
+*ETAPA 5
 * Función que se encarga de pintar todas las actividades
 */
 function renderActivities(activitiesArray) {
 	console.log('Activities: ', activitiesArray);
-}
+
+	for(var i = 0; i < activitiesArray.length; i++){
+		renderActivity(activitiesArray[i]);
+	}
+		if(activitiesArray.length > 0){
+			$(".wrapper-message").hide();
+		}
+	}
+
 
 /*
 * Función que se encarga de pintar una actividad
