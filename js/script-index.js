@@ -1,11 +1,19 @@
 $(document).ready( function(){
 
-$(".js-back").css("display", "none");
+//ETAPA 1
+ $(".js-back").css("display", "none");
 
-	$("#explore-recipes").click(function(e) {
+ $("#explore-recipes").click(function(e) {
 	  e.preventDefault();
 	  window.location.href="recipe.html";
 	});
+
+//ETAPA 2
+  function printNews() {
+		$("#new-recipe").append("NUEVAS RECETAS");
+  }
+	printNews();
+
 
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
