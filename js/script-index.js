@@ -22,11 +22,21 @@ $(document).ready( function(){
 
 
 /*
+*ETAPA 3
 * Función que se encarga de pintar TODAS las recetas que tengan
 * marcado el atributo "highlighted" como TRUE
 */
 function renderHighlightedRecipes(recipesArray) {
 	console.log('Recipes: ', recipesArray);
+	for(var i = 0; i < recipesArray.length; i++){
+		var highlighted = recipesArray[i].highlighted;
+		if(highlighted == true){
+			renderRecipe(recipesArray[i]);
+		}
+	};
+
+
+
 }
 
 /*
