@@ -4,4 +4,12 @@ $(document).ready(function() {
   $(".js-back").css("display", "block");
   $(".js-menu").css("display", "none");
 
+  $(".js-show-recipe").click(function() {
+    $("#divMakeRecipe").removeClass("make");
+  });
+
+  $(".js-show-make").click(function() {
+    $("#divMakeRecipe").addClass("make");
+  });
+
 });
