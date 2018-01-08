@@ -40,6 +40,7 @@ function renderHighlightedRecipes(recipesArray) {
 }
 
 /*
+*ETAPA 4
 * Función que se encarga de pintar UNA recetas que tenga
 * marcado el atributo "highlighted" como TRUE
 * Aqui se tiene que crear el HTML que esta en el
@@ -47,6 +48,21 @@ function renderHighlightedRecipes(recipesArray) {
 */
 function renderRecipe(recipe) {
 	console.log('Voy a pintar la receta: ', recipe);
+	var titleRecipe = recipe.title;
+	var authorRecipe = recipe.source.name;
+	var imgRecipe = recipe.img;
+
+	console.log(titleRecipe);
+	console.log(authorRecipe);
+	$(".list-recipes").append("<a class='item-recipe' href='#'>"+
+	                         "<span class='attribution'>"+
+	                         "<span class='title-recipe'>"+titleRecipe+"</span>"+
+	                         "<span class='metadata-recipe'>"+
+	                         "<span class='author-recipe'>"+authorRecipe+"</span>"+
+	                         "<span class='bookmarks-recipe'>"+
+	                         "<span class='icon-bookmark'></span></span></span></span>"+
+					                 "<img src='"+imgRecipe+"'></a>");
+
 }
 
 

@@ -1,9 +1,10 @@
 
 var recipesArray = [
-  
+
   {
     "title": "Fromage Fort",
     "highlighted": true,
+    "img":"img/recipes/320x350/spring-fromage-fort.jpg",
     "excerpt": "When I’ve got too many cheese bits on hand, it's now fromage fort to the rescue",
     "source": {
       "name": "David Lebovitz",
@@ -28,6 +29,7 @@ var recipesArray = [
   },
   {
     "title": "Classic Ragu Bolognese",
+    "img":"img/recipes/320x350/spring-ragu-bolognese.jpg",
     "excerpt": "A certain magic happens as the beef and aromatic vegetables slowly cook down with wine, tomato paste, and broth",
     "source": {
       "name": "Bon Appétit",
@@ -58,6 +60,7 @@ var recipesArray = [
   },
   {
     "title": "Animal-Cracker Cookies",
+    "img":"img/recipes/320x350/spring-animal-cracker-cookies.jpg",
     "excerpt": "Create and decorate magical cookies that are as much fun as a day at the circus!",
     "source": {
       "name": "Williams-Sonoma",
@@ -83,6 +86,7 @@ var recipesArray = [
   },
   {
     "title": "Chicken in Molé",
+    "img":"img/recipes/320x350/spring-chicken-in-mole.jpg",
     "excerpt": "If there is one dish that could be considered Mexican haute cuisine, then Mole Poblano is surely it",
     "source": {
       "name": "Epicurious",
@@ -123,6 +127,7 @@ var recipesArray = [
   },
   {
     "title": "Spanish Asparagus Revuelto",
+    "img":"img/recipes/320x350/spring-spanish-asparagus-revuelto.jpg",
     "excerpt": "In Spain, wild asparagus is very popular, and it’s a sure sign of spring",
     "source": {
       "name": "NY Times",
@@ -149,6 +154,7 @@ var recipesArray = [
   },
   {
     "title": "Fatted Calf's Meatloaf",
+    "img":"img/recipes/320x350/spring-meatloaf.jpg",
     "highlighted": true,
     "excerpt": "It is a thing of beauty, shaped into a large oval loaf and glazed with tangy cocktail sauce",
     "source": {
@@ -195,6 +201,7 @@ var recipesArray = [
   },
   {
     "title": "Lahmacun - Turkish Pizza",
+    "img":"img/recipes/320x350/spring-lahmacun-turkish-pizza.jpg",
     "excerpt": "",
     "source": {
       "name": "Ottolenghi",
@@ -232,6 +239,7 @@ var recipesArray = [
   },
   {
     "title": "Easiest Spaghetti & Meatballs",
+    "img":"img/recipes/320x350/spring-easiest-spaghetti-and-meatballs.jpg",
     "excerpt": "No pasta's more iconic than spaghetti and meatballs",
     "source": {
       "name": "Martha Stewart",
@@ -258,6 +266,7 @@ var recipesArray = [
   },
   {
     "title": "Slanted Door's Shaking Beef",
+    "img":"img/recipes/320x350/summer-shaking-beef.jpg",
     "excerpt": "Cubes of tender filet mignon are sautéed with red onions and a vinaigrette",
     "source": {
       "name": "7x7 magazine",
@@ -286,6 +295,7 @@ var recipesArray = [
   },
   {
     "title": "Bavarian-style Soft Pretzel",
+    "img":"img/recipes/320x350/summer-bavarian-pretzel.jpg",
     "excerpt": "",
     "source": {
       "name": "NY Times",
@@ -309,6 +319,7 @@ var recipesArray = [
   },
   {
     "title": "Apricots Honey Panna Cotta",
+    "img":"img/recipes/320x350/summer-apricots-honey-panna-cotta.jpg",
     "highlighted": true,
     "excerpt": "Juicy, fragrant, perfectly textured for a little fire action",
     "source": {
@@ -333,6 +344,7 @@ var recipesArray = [
   },
   {
     "title": "Elderberry Syrup",
+    "img":"img/recipes/320x350/summer-elderberry-syrup.jpg",
     "excerpt": "The gorgeous syrup is great in a glass of sparkling water over ice, dripped some over plain yogurt",
     "source": {
       "name": "David Lebovitz",
@@ -353,6 +365,7 @@ var recipesArray = [
   },
   {
     "title": "Spaghetti with Lemon & Olive Oil",
+    "img":"img/recipes/320x350/summer-spaghetti-lemon-olive.jpg",
     "excerpt": "This is one of those recipes that are almost better off without one",
     "source": {
       "name": "Smitten Kitchen",
@@ -377,6 +390,7 @@ var recipesArray = [
   },
   {
     "title": "Homemade Pasta Dough",
+    "img":"img/recipes/320x350/summer-homemade-pasta-dough.jpg",
     "excerpt": "",
     "source": {
       "name": "Mario Batali",
@@ -396,6 +410,7 @@ var recipesArray = [
   },
   {
     "title": "Diner Style Hamburgers",
+    "img":"img/recipes/320x350/summer-hamburger.jpg",
     "excerpt": "This is the traditional, griddled hamburger of diners and takeaway spots, smashed thin and cooked crisp on its edges",
     "source": {
       "name": "NY Times",
@@ -418,6 +433,7 @@ var recipesArray = [
   },
   {
     "title": "Roasted Butternut Squash Lasagna",
+    "img":"img/recipes/320x350/fall-roasted-butternut-squash-lasagna.jpg",
     "highlighted": true,
     "excerpt": "Making homemade pasta may seem arduous, but this dish is worth the extra work",
     "source": {
@@ -449,6 +465,7 @@ var recipesArray = [
   },
   {
     "title": "Grits Praline & Brown Butter Ice Cream",
+    "img":"img/recipes/320x350/summer-grits-icecream.jpg",
     "excerpt": "\"Decadent\" isn’t a word we throw around lightly",
     "source": {
       "name": "Anson Mills",
@@ -476,6 +493,7 @@ var recipesArray = [
   },
   {
     "title": "Peanut Butter Cookie with Salted Peanut Caramel",
+    "img":"img/recipes/320x350/fall-peanut-butter-cookie.jpg",
     "excerpt": "This recipe takes Peanut Butter Cookies to the next level",
     "source": {
       "name": "David Lebovitz",
@@ -507,6 +525,7 @@ var recipesArray = [
   },
   {
     "title": "Bucatini all' Amatriciana",
+    "img":"img/recipes/320x350/fall-amatriciana.jpg",
     "excerpt": "This dish is named for the town of Amatrice...considered by many Italians to be birthplace of the best cooks on the peninsula",
     "source": {
       "name": "Mario Batali",
@@ -531,6 +550,7 @@ var recipesArray = [
   },
   {
     "title": "Orecchiette with red lamb sausage & carrots",
+    "img":"img/recipes/320x350/fall-orecchiette-sausage-ragu.jpg",
     "excerpt": "Chef di Cucina Matt Abdoo expounded on the virtues of the fundamental building block of Italian cooking: fresh pasta",
     "source": {
       "name": "Mario Batali",
@@ -568,6 +588,7 @@ var recipesArray = [
   },
   {
     "title": "Italian Red-Wine Braised Duck w/ Olive Gremolata",
+    "img":"img/recipes/320x350/winter-braised-duck.jpg",
     "highlighted": true,
     "excerpt": "A good braise always trumps a steak or a roast, both in terms of complex flavors and satisfaction",
     "source": {
@@ -603,6 +624,7 @@ var recipesArray = [
   },
   {
     "title": "Chocolate Chai Spice Cupcake",
+    "img":"img/recipes/320x350/fall-chocolate-chai-cupcake.jpg",
     "excerpt": "The moist chocolatey goodness of the cake can live on its own",
     "source": {
       "name": "Cupcake Bakeshop",
@@ -633,6 +655,7 @@ var recipesArray = [
   },
   {
     "title": "Mexican Rice",
+    "img":"img/recipes/320x350/fall-mexican-rice.jpg",
     "excerpt": "",
     "source": {
       "name": "NY Times",
@@ -658,6 +681,7 @@ var recipesArray = [
   },
   {
     "title": "Whole Wheat Goldfish Crackers",
+    "img":"img/recipes/320x350/fall-whole-wheat-goldfish-crackers.jpg",
     "excerpt": "",
     "source": {
       "name": "Smitten Kitchen",
@@ -680,6 +704,7 @@ var recipesArray = [
   },
   {
     "title": "P.Hermé & D.Greenspan's World Peace Cookies",
+    "img":"img/recipes/320x350/winter-world-peace-cookie.jpg",
     "excerpt": "Shortbread cookie meets salted chocolate chip, and world peace feels within reach",
     "source": {
       "name": "Food52",
@@ -705,6 +730,7 @@ var recipesArray = [
   },
   {
     "title": "Chocolate Tart",
+    "img":"img/recipes/320x350/winter-chocolate-tart.jpg",
     "highlighted": true,
     "excerpt": "A good chocolate tart doesn’t need to be fancy, but it needs to be deep, dark, and yes, somewhat decadent.",
     "source": {
@@ -732,6 +758,7 @@ var recipesArray = [
   },
   {
     "title": "Braised eggs w/ beef, smoked aubergine & tomato",
+    "img":"img/recipes/320x350/winter-braised-eggs-with-beef.jpg",
     "excerpt": "",
     "source": {
       "name": "Ottolenghi",
@@ -766,6 +793,7 @@ var recipesArray = [
   },
   {
     "title": "Cashew Gateau with Coffee Cardamom Mousse",
+    "img":"img/recipes/320x350/winter-cashew-gateau.jpg",
     "excerpt": "The inspiration for the caramel stained \"glass\" panel comes from my grandmother",
     "source": {
       "name": "Tartelette",
@@ -796,5 +824,5 @@ var recipesArray = [
     ],
     "name": "winter-cashew-gateau"
   }
-  
+
 ];
